@@ -1,0 +1,63 @@
+/* Personalización del fondo y márgenes */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Sección de Bienvenida */
+#bienvenida {
+    background-color: #e9ecef;
+}
+
+#bienvenida h1 {
+    font-size: 3em;
+}
+
+/* Sección de Proyectos */
+#proyectos .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+#proyectos .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Formulario de Contacto */
+form .form-label {
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Cambiar el color de las flechas del carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000000;
+    /* Color de fondo de las flechas */
+    border-radius: 50%;
+    /* Hacer que las flechas sean redondas */
+    width: 40px;
+    /* Ajusta el tamaño de las flechas */
+    height: 40px;
+}
+
+/* Cambiar el color de las flechas cuando se pasa el mouse por encima */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: #007bff;
+    /* Color de fondo al pasar el mouse */
+}
+
+/* Cambiar la flecha cuando se pasa el mouse (color de la flecha) */
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    font-size: 20px;
+    /* Aumentar el tamaño de la flecha */
+    color: #fff;
+    /* Color de la flecha (por defecto blanco) */
+}
