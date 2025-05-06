@@ -5,11 +5,11 @@ body {
 }
 
 /* Sección de Bienvenida */
-#bienvenida {
+#yo {
     background-color: #e9ecef;
 }
 
-#bienvenida h1 {
+#yo h1 {
     font-size: 3em;
 }
 
@@ -61,3 +61,10 @@ form button:hover {
     color: #fff;
     /* Color de la flecha (por defecto blanco) */
 }
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
